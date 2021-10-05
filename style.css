@@ -1,0 +1,385 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; 
+    border:none;
+    
+}
+
+
+section{
+    min-height: 800px;
+    padding:16px;
+}
+
+html{
+    font-size: 75%;
+    overflow-x: hidden;
+}
+
+body{
+    background:#111;
+    overflow-x: hidden;
+    padding-left: 35rem;
+   
+    
+}
+
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+.btn i{
+    padding:0 0.5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    background:rgb(109, 143, 170);
+}
+
+header{
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    height:100%;;
+    width:35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .intro img{
+    height:17rem;
+    width:17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border:.7rem solid yellow;
+}
+
+header .intro .role{
+    font-size: 2rem;
+    color:#eee;
+}
+
+header .intro .name{
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+header .nav-bar{
+    width:100%;
+}
+
+header .nav-bar ul{
+    list-style: none;
+    padding:1rem 3rem;
+}
+
+
+header .nav-bar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+header .nav-bar ul li a:hover{
+    background:rgb(177, 177, 94);
+}
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+
+.heading span{
+    color:yellow;
+}
+
+#menu{
+    position: fixed;
+    top:2rem; right:2rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding:1rem 1.5rem;
+    z-index: 1000;
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+   padding-left:15rem;
+   padding-right: 100px;
+   
+    background:#111;
+}
+
+.home h3{
+    
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.home h1{
+    font-size:5rem;
+    color:#fff;
+}
+
+.home h1 span{
+    color:yellow;
+}
+
+.home p{
+    font-size:2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.about{
+    background:#111;
+   
+}
+
+
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}
+
+.about .row .about-me{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .about-me h3{
+    font-size: 2rem;
+    color:yellow;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .row .about-me h3 span{
+    color:#eee;
+    padding:0 .5rem;
+}
+
+.about .row .skills{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .skills .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+
+.about .row .skills .box h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.about .row .skills .box i{
+
+    padding-right: 1rem;
+    color:yellow;
+    font-size: 4rem;
+
+}
+
+.education{
+    background:#111;
+}
+
+.education .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left:100px;
+    padding-right: 70px;
+
+}
+
+.education .container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    border-left: .2rem solid #fff;
+    padding-left: 4rem;
+    position: relative;
+}
+
+.education .container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+
+.education .container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:rgb(212, 212, 105);
+}
+
+.gallery{
+    background:#111;
+}
+
+
+.gallery .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.gallery .container .box{
+    height: 20rem;
+    width:26rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    
+}
+
+.gallery .container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .ontainer .box:hover img{
+    transform: scale(1.2);
+}
+
+.contact{
+    background:#111;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left:100px;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+    padding:1.5rem;
+    margin:1rem 0;
+    background:#3333;
+    color:#fff;
+    text-transform: none;
+    font-size: 1.7rem;
+    width:100%;
+}
+
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+
+.top{
+    position: fixed;
+    bottom:7.5rem; right: 2rem;
+    z-index: 100;
+    display: none;
+}
+
+.contact .row .content .contact-info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left:100px;
+    font-weight: normal;
+}
+
+.contact .row .content .contact-info h3 i{
+    padding-right: 1rem;
+    color:yellow;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-left: 100px;
+    padding-bottom: 2rem;
+    color:yellow;
+}
+
